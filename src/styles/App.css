@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Global Section Padding */
+section {
+  padding: 80px 0;
+}
+
+h2.section-title {
+  font-size: 2.5rem;
+  color: #ff6f61;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+p {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  h2.section-title {
+    font-size: 2rem;
+  }
+
+  .btn-lg {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .hero-section {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  .navbar-nav {
+    padding: 10px;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  h2.section-title {
+    font-size: 1.75rem;
+  }
+
+  .btn-lg {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
